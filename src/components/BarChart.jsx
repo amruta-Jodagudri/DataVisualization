@@ -26,7 +26,7 @@ const staticData = {
     ],
 };
 
-const Dashboard = () => {
+const BarChart= () => {
     const [chartData, setChartData] = useState(staticData);
     const [minValue, setMinValue] = useState('');
     const [maxValue, setMaxValue] = useState('');
@@ -118,4 +118,4 @@ const Dashboard = () => {
     );
 };
 
-export default Dashboard;
+export default BarChart;
