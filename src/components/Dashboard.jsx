@@ -2,6 +2,7 @@ import { Chart, registerables } from 'chart.js';
 import zoomPlugin from 'chartjs-plugin-zoom';
 import React, { useState } from 'react';
 import { Bar } from 'react-chartjs-2';
+import './style.css';
 
 Chart.register(...registerables, zoomPlugin);
 

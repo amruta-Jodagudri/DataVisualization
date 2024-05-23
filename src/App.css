@@ -12,8 +12,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
-    width: 100%;
-    max-width: 1200px;
+    width: 50%;
+    max-width: 800px;
     justify-items: center;
 }
 
